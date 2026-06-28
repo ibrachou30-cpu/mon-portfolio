@@ -42,7 +42,7 @@ nav a:hover {
 }
 .container {
     height: 100vh;
-    background-image: url("/img/T\ shaped\ rose\ gold\ cherry\ blossom\ fashion\ show\ staging\ design.jpeg"); 
+    background-image: url("../img/mannequin.jpeg"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ p{
 }
 
 .card1{
-    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("/img/LV.jpeg");
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("../img/lv.jpeg");
     width: 280px;
     height: 280px;
     margin: 30px;
@@ -143,7 +143,7 @@ p{
 }
 
 .card2{
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("/img/ablagdon.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("../img/ablagdon.jpeg");
     width: 280px;
     height: 280px;
     margin: 30px;
@@ -156,7 +156,7 @@ p{
 }
 
 .card3{
-    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("/img/télécharger\ \(5\).jpeg");
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("../img/télécharger\ \(5\).jpeg");
     width: 280px;
     height: 280px;
     margin: 30px;

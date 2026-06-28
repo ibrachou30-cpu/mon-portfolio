@@ -42,7 +42,7 @@ nav a:hover {
 }
 .container {
     height: 100vh;
-    background-image: url("/img/télécharger\ \(6\).jpeg");
+    background-image: url("../img/télécharger-\(6\).jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ p{
 }
 
 .card1{
-    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("/img/télécharger\ \(2\).jpeg");
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("../img/télécharger-\(2\).jpeg");
     width: 280px;
     height: 280px;
     margin: 30px;
@@ -140,7 +140,7 @@ p{
 }
 
 .card2{
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("/img/paco\ rabanne\ fall\ 2020.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("../img/paco-rabanne.jpeg");
     width: 280px;
     height: 280px;
     margin: 30px;
@@ -153,7 +153,7 @@ p{
 }
 
 .card3{
-    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("/img/télécharger\ \(1\).jpeg");
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("../img/télécharger-\(1\).jpeg");
     width: 280px;
     height: 280px;
     margin: 30px;
