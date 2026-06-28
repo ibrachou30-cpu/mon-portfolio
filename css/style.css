@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:#FAF2EA;
+    color:black;
+    
+}
+
+
+header {
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#B67332;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 100;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.navbar {
+    display: flex;            
+    justify-content: space-between; 
+    align-items: center;     
+    padding: 20px 10px;           
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+}
+.nav a:hover{
+     color: #333;
+}
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#e5e7e6;
+}
+.skills{
+    width:80%;
+    margin:50px auto;
+}
+
+.skills h2{
+    text-align:center;
+    color:#B67332;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.skill{
+    margin-bottom:20px;
+}
+
+.skill p{
+    margin-bottom:5px;
+    color:#555;
+}
+
+.bar{
+    width:100%;
+    height:12px;
+    background:#e6e6e6;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress{
+    height:100%;
+    background:#B67332;
+    border-radius:20px;
+}
+
+
+.html{
+    width:80%;
+}
+
+.c{
+    width:40%;
+}
+
+.js{
+    width:40%;
+}
+
+.excel{
+    width:50%;
+}
+
+.word{
+    width:95%;
+}
+
+.ppt{
+    width:90%;
+}
+
+
+
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(139, 69, 19, 0.5);
+}
+
+
+
+.container {
+    height: 100vh;
+    background-image: url("/img/Silent\ Kernel.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:whitesmoke;
+}
+.container::before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+.container-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px 5px;
+    padding: 5px;
+    color: white;
+}
+
+.container-content p {
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px 5px;
+    padding: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background:#B67332;
+    color: #0f172a;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 80px 10%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color:#B67332;
+    font-size: 35px;
+}
+
+.about p {
+    text-align: center;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: auto;
+}
+.Parfum{
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color:#FAF2EA;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color:#B67332;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+.card1{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("/img/télécharger\ \(2\).jpeg");
+    width: 280px;
+    height: 280px;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 9px;
+    background-size: cover;
+    transition: transform 0.5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card2{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("/img/paco\ rabanne\ fall\ 2020.jpeg");
+    width: 280px;
+    height: 280px;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 9px;
+    transition: transform 0.5s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card3{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url("/img/télécharger\ \(1\).jpeg");
+    width: 280px;
+    height: 280px;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 9px;
+    transition: transform 0.5s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+button{
+    padding:15px 35px;
+    border:2px solid white;
+    background:transparent;
+    color:white;
+    cursor:pointer;
+    transition:.4s;
+}
+
+button:hover{
+    background:#B67332;
+    box-shadow:
+        0 0 15px#B67332,
+        0 0 40px #B67332;
+    transform:translateY(-5px);
+}
+.card1:hover{
+   transform: scale(1.1);
+}
+.card2:hover{
+      transform: scale(1.1);
+}
+.card3:hover{
+      transform: scale(1.1);
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
